@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header{
+    background-color: rgb(93, 93, 240);
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zhuzha{
+    color: rgb(16, 28, 59);
+    font-size: 48px;
+    margin-left: 20px;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.main{
+    background-color: rgb(50, 60, 155);
+    padding: 15px;
+}
+.post{
+    background-color: royalblue;
+    display: flex;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.pic img{
+    width: 150px;
+    height: 250px;
+    margin-right: 15px;
+}
+.text p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.foote{
+    height: 60px;
+    background-color: cyan;
+    font-size: 20px;
+    color: dodgerblue;
+    text-align: center;
+    padding-top: 20px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    font-size: 24px;
+    list-style: none;
+    margin-right: 20px;
+}
+.menu a{
+    color: mintcream;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.carousel{
+    width: 80%;
+    margin: 0 auto;
+}
+.carousel img{
+    height: 800px;
+}
+.video{
+    width: 90%;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+.contactss img{
+    width: 50px;
+}
+.block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.block p{
+    margin-left: 20px;
+}
